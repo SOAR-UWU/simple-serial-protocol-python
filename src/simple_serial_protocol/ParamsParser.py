@@ -1,3 +1,4 @@
+from __future__ import annotations
 from typing import Any, Final, Type
 
 from simple_serial_protocol.param_type.ParamType import ParamType

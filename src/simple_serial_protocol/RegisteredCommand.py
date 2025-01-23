@@ -1,3 +1,4 @@
+from __future__ import annotations
 from typing import Final
 
 from simple_serial_protocol.ParamsParser import ParamsParser

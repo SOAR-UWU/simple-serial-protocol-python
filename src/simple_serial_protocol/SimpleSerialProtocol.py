@@ -1,3 +1,4 @@
+from __future__ import annotations
 from dataclasses import dataclass
 from threading import Event, Thread
 from time import sleep
