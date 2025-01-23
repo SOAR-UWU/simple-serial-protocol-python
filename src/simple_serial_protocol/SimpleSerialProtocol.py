@@ -30,8 +30,10 @@ from simple_serial_protocol.serial_port.AbstractSerialPort import AbstractSerial
 from simple_serial_protocol.serial_port.PySerialSerialPort import PySerialSerialPort
 
 
-@dataclass(frozen=True, slots=True)
+@dataclass(frozen=True)
 class CommandParam:
+    __slots__ = 'type', 'value'
+
     type: str
     value: Any
 
