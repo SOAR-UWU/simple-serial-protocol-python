@@ -1,9 +1,9 @@
 from abc import ABC, abstractmethod
-from typing import Generic, TypeAlias, TypeVar
+from typing import Generic, TypeVar
 
 from simple_serial_protocol.common import Byte
 
-T: TypeAlias = TypeVar('T')
+T = TypeVar('T')
 
 
 class ParamType(Generic[T], ABC):
