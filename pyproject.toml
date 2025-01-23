@@ -23,6 +23,7 @@ classifiers = [
 [tool.poetry.dependencies]
 python = ">=3.8,<3.13"
 pyserial = "^3.5"
+typing-extensions = "^4.6.0"
 
 [tool.poetry.group.test.dependencies]
 pytest = "^7.4.0"
